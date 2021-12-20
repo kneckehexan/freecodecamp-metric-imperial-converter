@@ -48,8 +48,6 @@ function ConvertHandler() {
   };
   
   this.convert = function(initNum, initUnit) {
-    console.log(initNum + ' * ' + units[initUnit][2]);
-    console.log(Number(formatter.format(initNum * units[initUnit][2])));
     return Number(formatter.format(initNum * units[initUnit][2]));
   };
   
